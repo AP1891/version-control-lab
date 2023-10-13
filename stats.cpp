@@ -3,14 +3,14 @@
 int main()
 {
   int num1;
-  double num2;
+  int num2;
   std::cout << "Please enter the two numbers: ";
   std::cin >> num1 >> num2;
-  double sum = num1 + num2;
-  double difference = num1 - num2;
-  double product = num1 * num2;
-  double distance = abs(difference);
-  double mean = sum / 2;
+  int sum = num1 + num2;
+  int difference = num1 - num2;
+  int product = num1 * num2;
+  int distance = abs(difference);
+  int mean = sum / 2;
   std::cout << "The sum of " << num1 << " and " << num2
 	    << " is: "<< sum
 	    << "\n The difference between " << num1 << " and " << num2
