@@ -2,7 +2,7 @@
 
 int main()
 {
-  int num1;
+  double num1;
   double num2;
   std::cout << "Please enter the two numbers: ";
   std::cin >> num1 >> num2;
